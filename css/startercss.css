@@ -32,12 +32,31 @@
     display: none;
     
 }
-
-a{
+.home{
     text-decoration: none;
     color: rgb(248, 245, 245);
     
     padding-right: 3px;
+}
+.barhtml, .barcss, .barjava, .barword, .bareng, .bartyp, .barbudish, .barvdo, .barnote{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    
+    padding-right: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 11, 11);
+    
+    
+}
+a:hover{
+    text-decoration: underline red 2px;
+    background-color: rgba(156, 24, 243, 0.163);
+    
+    color: #111;
+
 }
 .home:hover{
     background-color: hsl(143, 30%, 50%);
@@ -64,6 +83,11 @@ a{
     overflow-y: scroll;
     z-index: 1;
 }   
+.activelink{
+    background-color: #05ceceee;
+    color: red;
+    font-size: 20px;
+}
 
 .navtag{
     float: left;
@@ -98,7 +122,7 @@ a{
     font-size: 25px;
     color: #ab81ee;
     position: sticky;
-    top: 55px;
+    top: 0px;
 }
 
 .navleft, h2 {
@@ -153,7 +177,7 @@ a{
      
      
  }
- .divadetail:hover{
+ /*.divadetail:hover{
     background-color: cadetblue;
  }
 
@@ -173,7 +197,7 @@ a{
 }
 .diva:visited{
     background-color:  #dfee5d;
-}
+}*/
 
 .middle{
     box-sizing: border-box;

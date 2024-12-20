@@ -1,14 +1,24 @@
-var a =<a class="diva" href="./HTML_Style_Guade.html">html - Style_Guide</a>;
-document.getElementById("a").innerHTML = "a"
+const pathName = window.location.pathname;
+const pageName = pathName.split("/").pop();
 
-function allowDrop(ev) {
-    ev.preventDefault();
-    }
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-    }
-function drop(ev) {
- ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data)); 
-    }
+if(pageName ==="index.html"){
+    document.querySelector(".home").classList.add("activelink");
+}
+if(pageName ==="Starter.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="Starter.html"){
+    document.querySelector(".diva").classList.add("activelink");
+}
+//microsoft word
+    if(pageName ==="Lesson1.html"){
+    document.querySelector(".barword").classList.add("activelink");
+}
+if(pageName ==="Lesson1.html"){
+    document.querySelector(".divaword").classList.add("activelink");
+}
+//book1 english
+if(pageName ==="EngLesson1.html"){
+    document.querySelector(".bareng").classList.add("activelink");
+}
+alert(pageName);

@@ -20,27 +20,35 @@
       <a href="../index.html"><img src="../Image/Your Class.jpg" alt="Y-C=Your Class(logo)"></a>  
         <h1 class="headh1"><a href="../Index.html">Your Class</a></h1>
     </header>
-    <nav class="topmenu">
+    <ul id="menubar">
+        <li id="menubar1" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        <li id="menubar1"><a href="../index.html" class="home">Home</a></li>
+        <li id="menubar1"><a href="../html/Starter.html" class="barhtml">Html</a></li>
+        <li id="menubar1"><a href="#" class="barcss">Css</a></li>
+        <li id="menubar1"><a href="#" class="barjava">Javacript</a></li>
+        <li id="menubar1"><a href="../Word/Lesson1.html" class="barword">Office Word</a></li>
+        <li id="menubar1"><a href="../book1/Eng_Lesson1.html" class="bareng">English Tutorial</a></li>
+        <li id="menubar1"><a href="#" class="bartyp">Typing Tutorial</a></li>
+        <li id="menubar1"><a href="../ព្រះធម៌/អរិយសច្ចៈ.html" class="barbudish">ព្រះធម៌</a></li>
+        <li id="menubar1"><a href="#" class="barvdo">Video Tutorial</a></li>
+        <li id="menubar1"><a href="../html/Note_Page.html" target="_blank" class="barnote">Note Page</a></li>
+    </ul>
+    <script>
+        function showsidebar(){
+            const leftside = document.querySelector('.leftside')
+            leftside.style.display = 'flex'
+        }
+    </script>
+    <script>
+        function closesidebar(){
+            const leftside = document.querySelector('.leftside')
+            leftside.style.display = 'none'
+        }
+    </script>
+    <div class="leftside">
+        <nav id="navleft">
         
-            <a href="../index.html" class="menua1">Home</a>
-            <a href="" class="menua1">|</a>
-            <a href="../html/Starter.html" class="menua1">Html</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Css</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Javacript</a>
-            <a href="" class="menua1">|</a>
-          
-            <a href="../Word/Lesson1.html" class="menua1">Office Word</a>
-            <a href="" class="menua1">|</a>
-            <a href="../book1/Eng_Lesson1.html" class="menua1">English Tutorial</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Video Tutorial</a>
-       
-    </nav>
-    <nav class="navleftside">
-        
-        <h2 class="htmltutorial">Book1 Eng-Tutorial</h2>
+            <h2 class="htmltutorial">Eng. Tutorial <span style="background-color: aquamarine;" onclick="closesidebar()" class="exitbar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span></h2>
         <a class="diva" href="../book1/Eng_Lesson1.html">Lesson-1 (One)</a>
         <a class="diva" href="../book1/Eng_Lesson2.html">Lesson-2 (Two)</a>
         <a class="diva" href="../book1/Eng_Lesson3.html">Lesson-3 (Three)</a>
@@ -57,7 +65,7 @@
         <a class="diva" href="../book1/Eng_Lesson20.html">Lesson-20 (Twenty)</a> 
         <a class="diva" href="../book1/Eng_Lesson21.html">Lesson-21 (Twenty one)</a>         
     </nav>
-
+    </div>
 <main class="middle" id="main">
     <h1 class="bookhead">LESSON-1</h1>
     <h4 class="bookhead4">(First Lesson)</h4>
