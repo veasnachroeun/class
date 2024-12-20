@@ -1,4 +1,5 @@
 const pathName = window.location.pathname;
+
 const pageName = pathName.split("/").pop();
 
 if(pageName ==="index.html"){
@@ -18,7 +19,8 @@ if(pageName ==="Lesson1.html"){
     document.querySelector(".divaword").classList.add("activelink");
 }
 //book1 english
-if(pageName ==="EngLesson1.html"){
+if(pageName ==="Eng_Lesson1.html"){
     document.querySelector(".bareng").classList.add("activelink");
 }
 alert(pageName);
+alert(pathName);
