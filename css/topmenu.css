@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    
+}
+.topmenu{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    height: 45px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 16.2%;
+}
+.navleftside{
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 15%;
+    margin-left: 15px;
+   
+}
+.sidebar1{
+   float: left;
+   width: 15%;
+   text-align: center;
+   
+   margin-left: 15px;
+}
+#main{
+    margin-top: 0px;
+}
+
+@media screen and (max-width:680px) {
+    .navleftside, .middle, .sidebar1{
+        width: 100%;
+    }
+    
+}

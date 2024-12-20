@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.entitysection{
+    width: 700px;
+    border: 1px groove black;
+    overflow: hidden;
+    margin: 35px;
+}
+#backhome{
+    position: sticky;
+}
+.entityh1{
+    font-size: 2vw;
+}

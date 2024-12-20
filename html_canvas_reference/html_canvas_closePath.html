@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html canvas closePath method, canvas closePath in html">
+    <meta name="description"  content="Webdebeloper free Html, css, javacript tutorial">
+    <title>HTML Canvas closePath Method</title>
+    <link href='https://fonts.googleapis.com/css?family=Khmer' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moul">
+    <link rel="icon" href="../favicon/favicon.ico">
+    <link rel="stylesheet" href="../css/heading.css">
+    <link rel="stylesheet" href="../css/startercss.css">
+    <link rel="stylesheet" href="../css/stylecss.css">
+    <link rel="stylesheet" href="../css/Bookstylesheet.css">
+              
+</head>
+<body style="background-color: #e0eeef;" >
+    <header class="head">
+      <a href="../Index.html"><img src="../Image/Your Class.jpg" alt="Y-C=Your Class(logo)"></a>  
+        <h1 class="headh1"><a href="../Index.html">Your Class</a></h1>
+    </header>
+    <nav class="menu">
+        <nav class="menu1">
+            <a href="../index.html" class="menua1">Home</a>
+            <a href="" class="menua1">|</a>
+            <a href="../html/Starter.html" class="menua1">Html</a>
+            <a href="" class="menua1">|</a>
+            <a href="#" class="menua1">Css</a>
+            <a href="" class="menua1">|</a>
+            <a href="#" class="menua1">Javacript</a>
+            <a href="" class="menua1">|</a>
+            <a href="../Word/Lesson1.html" class="menua1">Office Word</a>
+            <a href="" class="menua1">|</a>
+            <a href="#" class="menua1">Typing Tutorial</a>
+            <a href="" class="menua1">|</a>
+            <a href="#" class="menua1">Other</a>
+            <a href="" class="menua1">|</a>
+            <a href="#" class="menua1">Video Tutorial</a>
+        </nav>
+    </nav>
+    <div class="leftside">
+        <nav id="navleft">
+            <h2 class="htmltutorial">THTML Tutorial</h2>
+            <a class="diva" href="../html/Starter.html">html - Starter</a>
+            <a class="diva" href="../html/What's_html.html">html - What's html?</a>
+            <a class="diva" href="../html/Semantic_element.html">html - Semantic</a>
+            <a class="diva" href="../html/HTML_Style_Guade.html">html - Style_Guide</a>
+            <details >
+                <summary class="diva"><a class="sumanchor" href="../html/HTML_Entities.html">html - Entities</a></summary>
+                <a class="divadetail" href="../html/html5_entities_a.html">HTML5 Entity A</a>
+                <a class="divadetail" href="../html/html5_entities_b.html">HTML5 Entity B</a>
+                <a class="divadetail" href="../html/html5_entities_c.html">HTML5 Entity C</a>
+                <a class="divadetail" href="../html/html5_entities_d.html">HTML5 Entity D</a>
+                <a class="divadetail" href="../html/html5_entities_e.html">HTML5 Entity E</a>
+                <a class="divadetail" href="../html/html5_entities_f.html">HTML5 Entity F</a>
+                <a class="divadetail" href="../html/html5_entities_g.html">HTML5 Entity G</a>
+                <a class="divadetail" href="../html/html5_entities_h.html">HTML5 Entity H</a>
+                <a class="divadetail" href="../html/html5_entities_i.html">HTML5 Entity I</a>
+                <a class="divadetail" href="../html/html5_entities_j.html">HTML5 Entity J</a>
+                <a class="divadetail" href="../html/html5_entities_k.html">HTML5 Entity K</a>
+                <a class="divadetail" href="../html/html5_entities_l.html">HTML5 Entity L</a>
+                <a class="divadetail" href="../html/html5_entities_m.html">HTML5 Entity M</a>
+                <a class="divadetail" href="../html/html5_entities_n.html">HTML5 Entity N</a>
+                <a class="divadetail" href="../html/html5_entities_o.html">HTML5 Entity O</a>
+                <a class="divadetail" href="../html/html5_entities_p.html">HTML5 Entity P</a>
+                <a class="divadetail" href="../html/html5_entities_q.html">HTML5 Entity Q</a>
+                <a class="divadetail" href="../html/html5_entities_r.html">HTML5 Entity R</a>
+                <a class="divadetail" href="../html/html5_entities_s.html">HTML5 Entity S</a>
+                <a class="divadetail" href="../html/html5_entities_t.html">HTML5 Entity T</a>
+                <a class="divadetail" href="../html/html5_entities_u.html">HTML5 Entity U</a>
+                <a class="divadetail" href="../html/html5_entities_v.html">HTML5 Entity V</a>
+                <a class="divadetail" href="../html/html5_entities_w.html">HTML5 Entity W</a>
+                <a class="divadetail" href="../html/html5_entities_x.html">HTML5 Entity X</a>
+                <a class="divadetail" href="../html/html5_entities_y.html">HTML5 Entity Y</a>
+                <a class="divadetail" href="../html/html5_entities_z.html">HTML5 Entity Z</a>
+            </details>
+            <details>
+                <summary class="diva"><a class="sumanchor" href="../html_symbol/html_symbols.html">html - Symbols</a></summary>
+                <a class="divadetail" href="../html_symbol/html_general_punctuation.html">General Puctuation</a>
+                <a class="divadetail" href="../html_symbol/html_currency_symbol.html">Currency Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_letterlike_symbol.html">Letterlike Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_arrows_symbol.html">Arrow Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_mathematical_operator.html">Math Operator</a>
+                <a class="divadetail" href="../html_symbol/html_box_drawing.html">Box Drawing</a>
+                <a class="divadetail" href="../html_symbol/html_block_element.html">Block Element</a>
+                <a class="divadetail" href="../html_symbol/html_geometric_shapes.html">Geometric Shapes</a>
+                <a class="divadetail" href="../html_symbol/html_miscellaneous_symbols.html">Miscellaneous Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_dingbats_symbols.html">Dingbats Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_emoji.html">Emoji Symbols</a>
+                <a class="divadetail" href="../html_symbol/html_emoji_smile.html">Emoji Smile</a>
+                <a class="divadetail" href="../html_symbol/html_emoji_skin_tones.html">Emoji Skin tones</a>
+            </details>
+            <details>
+                <summary class="diva"><a class="sumanchor" href="../html_charset/html_charset.html">html - Charset</a></summary>
+                <a class="divadetail" href="../html_charset/html_ascii.html">HTML ASCII</a>
+                <a class="divadetail" href="../html_charset/html_windows_1252.html">HTML Windows-1252</a>
+                <a class="divadetail" href="../html_charset/html_ISO_8859.html">HTML ISO-8859</a>
+                
+            </details>
+            <details>
+              <summary class="diva"><a class="sumanchor" href="../html_charset/html_unicode_utf_8.html">html - Unicode UTF-8</a></summary>
+              <a class="divadetail" href="../html_charset/html_latin_basic.html">HTML Latin Basic</a>
+              <a class="divadetail" href="../html_charset/html_latin_supplement.html">HTML Latin Supplement</a>
+              <a class="divadetail" href="../html_charset/html_latin_extendeda.html">HTML Latin Extended A</a>
+              <a class="divadetail" href="../html_charset/html_latin_extendedb.html">HTML Latin Extended B</a>
+              <a class="divadetail" href="../html_charset/html_latin_modifier.html">HTML Modifier Letter</a>
+              <a class="divadetail" href="../html_charset/html_latin_diacritical.html">HTML Diacritical Marks</a>
+              <a class="divadetail" href="../html_charset/html_latin_greek.html">HTML Greek and Coptic</a>
+              <a class="divadetail" href="../html_charset/html_latin_cyillic.html">HTML Cyrillic Basic</a>
+              <a class="divadetail" href="../html_charset/html_latin_cyillic_supplement.html">HTML Cyrillic Supplement</a>
+          </details>
+          <a class="diva" href="./html_url_encode.html">HTML URL Encode</a>
+        </nav>
+
+        <nav class="navtag">
+            <h3 class="h3tag">HTML-Forms</h3>
+            <a class="diva" href="../html/html_form.html">html - form</a>
+            <a class="diva" href="../html/html_form_attributes.html">html - form attribute</a>
+            <a class="diva" href="../html/html_form_element.html">html - form element</a>
+            <details>
+                <summary class="diva" style="color: green;">List form attribute</summary>
+                <a class="divadetail" href="../form_attributes/accept_charset.html">Form accept_charset Attribute</a>
+                <a class="divadetail" href="../form_attributes/action.html">Form Action Attribute</a>
+                <a class="divadetail" href="../form_attributes/autocomplete.html">Form Autocomplete Attribute</a>
+                <a class="divadetail" href="../form_attributes/enctype.html">Form Enctype Attribute</a>
+                <a class="divadetail" href="../form_attributes/method.html">Form Method Attribute</a>
+                <a class="divadetail" href="../form_attributes/name.html">Form Name Attribute</a>
+                <a class="divadetail" href="../form_attributes/novalidate.html">Form Novalidate Attribute</a>
+                <a class="divadetail" href="../form_attributes/rel.html">Form Rel Attribute</a>
+                <a class="divadetail" href="../form_attributes/target.html">Form Target Attribute</a>
+            </details>
+            <a class="diva" href="../html/html_input_type.html">html - input type</a>
+            <a class="diva" href="../html/html_input_attribute.html">html - input attribute</a>
+            <a class="diva" href="../html/html_input_form_attribute.html">html - input form attribute</a>
+        </nav>
+
+        <nav class="navtag">
+            <h3 class="h3tag">HTML-Graphic</h3>
+            <a class="diva" href="../html_graphic/html_canvas.html">html - Canvas</a>
+            <details>
+                <summary class="diva" style="color: green;">Complete Canvas</summary>
+                <a class="divadetail" href="../html_graphic/html_canvas_intro.html">Canvas Intro</a>
+                <a class="divadetail" href="../html_graphic/html_canvas_drawing.html">Canvas Drawing</a>
+                <a class="divadetail" href="../html_graphic/html_canvas_Coordinates.html">Canvas Coordinates</a>
+                <a class="divadetail" href="../html_graphic/html_canvas_gradients.html">Canvas Gradients</a>
+                <a class="divadetail" href="../html_graphic/html_canvas_text.html">Canvas Text</a>
+                <a class="divadetail" href="../html_graphic/html_canvas_image.html">Canvas Image</a>
+                
+                <details>
+                    <summary class="diva" style="color: green;"><a href="../html_graphic/html_canvas_reference.html">Cancas Reference</a></summary>
+                    <details>
+                        <summary class="diva" style="color: green;">Drawing Methods</summary>
+                        <a class="divadetail" href="../html_canvas_reference/html_canvas_fillRect.html">fillRect</a>
+                        <a class="divadetail" href="../html_canvas_reference/html_canvas_strokeRect.html">strokeRect</a>
+                        <a class="divadetail" href="../html_canvas_reference/html_canvas_clearRect.html">clearRect</a>
+                    </details>
+                    <details>
+                        <summary class="diva" style="color: green;">Path Methods</summary>
+                        <a class="divadetail" href="../html_canvas_reference/html_canvas_beginPath.html">beginPath</a>
+                        <a class="divadetail" href="../html_canvas_reference/html_canvas_closePath.html">closePath</a>
+                        
+                    </details>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_fillstyle_property.html">Canvas fillstyle</a>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_strokestyle.html">Canvas strokeStyle</a>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_shadowcolor.html">Canvas shadowColor</a>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_shadowblur.html">Canvas shadowBlur</a>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_shadowoffsetX.html">Canvas shadowOffsetX</a>
+                    <a class="divadetail" href="../html_canvas_reference/html_canvas_shadowoffsetY.html">Canvas shadowOffsetY</a>
+                </details>
+            </details>
+            
+        </nav>
+        
+        <nav class="navtag">
+            <h3 class="h3tag">HTML-Reference</h3>
+            <a class="tag" href="../html/html_input_attribute.html">HTML Global Attribute</a>
+            <a class="tag" href="../html_reference/html_iso_language_code.html">HTML Language Code</a>
+            <a class="tag" href="../html_graphic/html_canvas_reference.html">Canvas Reference</a>
+        </nav>
+        
+        <nav class="navtag">
+            <h3 class="h3tag">HTML-Attributes</h3>
+            <a class="tag" href="../html_attributes/html_accesskey_attribute.html">accesskey attribute</a>
+            <a class="tag" href="../html_attributes/html_class_attribute.html">class attribute</a>
+            <a class="tag" href="../html_attributes/html_contenteditable_attribute.html">contenteditable attribute</a>
+            <a class="tag" href="../html_attributes/html_data_attribute.html">data-* attribute</a>
+            <a class="tag" href="../html_attributes/html_dir_attribute.html">dir attribute</a>
+            <a class="tag" href="../html_attributes/html_draggable_attribute.html">draggable attribute</a>
+            <a class="tag" href="../html_attributes/html_hidden_attribute.html">hidden attribute</a>
+            <a class="tag" href="../html_attributes/html_id_attribute.html">id attribute</a>
+            <a class="tag" href="../html_attributes/html_lang_attribute.html">lang attribute</a>
+            <a class="tag" href="../html_attributes/html_spellcheck_attribute.html">spellcheck attribute</a>
+            <a class="tag" href="../html_attributes/html_style_attribute.html">style attribute</a>
+        </nav>
+
+        <nav class="navtag">
+            <h3 class="h3tag">HTML-Tags</h3>
+            <a class="tag" href="../html/Semantic_element.html#section">&lt;section&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#article">&lt;article&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#details">&lt;details&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#summary">&lt;summary&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#figure">&lt;figure&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#figcation">&lt;figcaption&gt;</a>
+            <a class="tag" href="../html/Semantic_element.html#main1">&lt;main&gt;</a>
+            <a class="tag" href="../html_tag/html_form_tag.html">&lt;form&gt;</a>
+        </nav>
+    </div>
+
+<main class="middle">
+    
+    <a class="aprevleft" href="../html_canvas_reference/html_canvas_beginPath.html">&#8810Previouse</a>
+    <a class="aprevright" href="../html_canvas_reference/html_canvas_isPointInPath.html">Next&#8811</a> <br><br> <br><br>
+    
+    
+    <h1>Canvas closePath() Method</h1>
+    <p style="font-size: 25px; border-radius: 25% ; width: fit-content;"> <a class="a1" href="../html_graphic/html_canvas_reference.html" target="_blank">Canvas Reference</a></p> <br><br> <br><br><br>
+
+            <hr>
+            
+            <section class="section1">
+            
+                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px;">
+                    <p class="htmlparagraph">
+                        ជាឧទាហរណ៏៖ <br>
+                        គូស path, រូបរាងជាអក្សរ L, និងបិទ path​ ត្រឡប់មកវិញជាមួយនិងបន្ទាត់ចាប់ពីចំនុចផ្តើម:
+                    </p>
+            
+                    <p class="htmlparagraph1">
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">!DOCTYPE html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">body</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        &#160;&#160;&#160;&#160;&#160;<span style="color: green;">&#60;</span><span style="color:darkred ;">canvas</span> <span style="color: red;">id</span><span style="color: blue;">="closePath"</span> <span style="color: red;">width</span><span style="color: blue;">="300"</span> <span style="color: red;">height</span><span style="color: blue;">="150"</span> <span style="color: red;">style</span><span style="color: blue;">="border: 1px solid gray"</span><span style="color: green;">&#62;</span>Your Browser doesn't suppot with canvas tag<span style="color: green;">&#60;</span><span style="color:darkred ;">/canvas</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">script</span><span style="color: green;">&#62;</span> <br>
+                        
+                            <span style="color: blue;">const</span> cns = document.getElementById("<span style="color: red;">closePath"</span>); <br>
+                            <span style="color: blue;">const</span> ctx = cns.getContext("<span style="color: red;">2d</span>"); <br><br>
+
+                           
+                            
+                            <span style="color: blue;">ctx</span>.beginPath<span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx</span>.strokeStyle = "<span style="color: red;">green</span>" <br>
+                            <span style="color: blue;">ctx</span>.lineWidth = <span style="color: red;">3</span>; <br>
+                            <span style="color: blue;">ctx</span>.moveTo  (<span style="color: red;">20, 20</span>); <br>
+                            <span style="color: blue;">ctx</span>.lineTo  (<span style="color: red;">20, 120</span>); <br>
+                            <span style="color: blue;">ctx</span>.lineTo  (<span style="color: red;">120, 120</span>); <br>
+                            <span style="color: blue;">ctx</span>.closePath <span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx</span>.stroke <span style="color: red;">()</span>; <br><br>
+
+                            
+                            
+
+
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/script</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/body</span><span style="color: green;">&#62;</span> <br>
+                    </p> 
+                   
+                    <p class="htmlparagraph">
+                        កូដខាងលើបង្ហាញចេញដូចនេះ
+                    </p>
+                   <canvas id="closePath" width="300" height="150" style="border: 1px solid gray">Your Browser doesn't suppot with canvas tag</canvas>
+                   <script>
+                   const cns = document.getElementById("closePath");
+                   const ctx = cns.getContext("2d");
+                   
+                   ctx.beginPath();
+                   ctx.strokeStyle = "green"
+                   ctx.lineWidth = 3;
+                   ctx.moveTo (20, 20);
+                   ctx.lineTo (20, 120);
+                   ctx.lineTo (120, 120);
+                   ctx.closePath ();
+                   ctx.stroke ();
+                   
+                   </script>
+  
+                </div>
+            </section>
+                <br> 
+                <hr>
+                <p class="htmlparagraph">
+               <span style="font-size: 25px;"><b>Description</b></span> <br><br>
+               The <span style="color: red;">closePath()</span> method សម្រាប់គូស path ពីចំនុចចុងក្រោយ ត្រឡប់ទីកាន់ចំនុចចាប់ផ្តើមដំបូង.​<br><br>
+
+               Use the <span style="color: red;">stroke()</span> ឬ <span style="color: red;">fill()</span> method ដើម្បីគូស path.
+               
+               
+               
+                </p> <br>
+                <hr>
+                
+                <p style="margin:5px ; font-size: 20px;  border:  1px ridge; background-color: rgba(225, 247, 127, 0.493);">
+                   <span style="font-size: 25px;"><b>See Also:</b></span> <br><br>
+                   
+                   <a href="../html_canvas_reference/html_canvas_beginPath.html" target="_blank">The beginPath() Method</a> (Begin a new path) <br>
+   
+                   <a href="../html_canvas_reference/html_canvas_stroke.html" target="_blank">The stroke() Method</a> (Draw current path)  <br>
+                   
+                   <a href="../html_canvas_reference/html_canvas_moveTo.html" target="_blank">The moveTo() Method</a> (Move the path to a point) <br>
+                   
+                   <a href="../html_canvas_reference/html_canvas_lineTo.html" target="_blank">The lineTo() Method</a> (Add a line to the path) <br>
+                   
+                   <a href="../html_canvas_reference/html_canvas_fill.html" target="_blank">The fill() Method</a> (Fill current path) <br>
+                   
+                   
+                  </p>
+            <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px;">
+                <p class="htmlparagraph" style="font-size: 25px;">
+                    Syntax <br>
+                    
+                </p>
+        
+                <p class="htmlparagraph1">
+                    
+                        
+                        <span style="color: blue;">context</span>.closePath<span style="color: red;">()</span>;
+
+                    
+                </p> 
+                
+                   
+            </div>
+        </section>
+            
+
+            
+
+            <h2 id="article" style="margin-top: 45px;">Parameters</h2> 
+            <p style="font-size: 25px; border: 1px solid gray; margin-left: 25px;">None</p>
+
+            <h2 id="article" style="margin-top: 45px;">Return Value</h2> 
+            <p style="font-size: 25px; border: 1px solid gray; margin-left: 25px;">None</p>​ <br><br>
+
+            <section class="section1">
+            
+                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px;">
+                    <p class="htmlparagraph">
+                        ឧទាហរណ៏បន្ថែម៖ <br>
+                        ចាក់បំពេញពណ៌ខ្មៅទៅលើ path
+                    </p>
+            
+                    <p class="htmlparagraph1">
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">!DOCTYPE html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">body</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        &#160;&#160;&#160;&#160;&#160;<span style="color: green;">&#60;</span><span style="color:darkred ;">canvas</span> <span style="color: red;">id</span><span style="color: blue;">="filltoPath"</span> <span style="color: red;">width</span><span style="color: blue;">="300"</span> <span style="color: red;">height</span><span style="color: blue;">="150"</span> <span style="color: red;">style</span><span style="color: blue;">="border: 1px solid gray"</span><span style="color: green;">&#62;</span>Your Browser doesn't suppot with canvas tag<span style="color: green;">&#60;</span><span style="color:darkred ;">/canvas</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">script</span><span style="color: green;">&#62;</span> <br>
+                        
+                            <span style="color: blue;">const</span> canvas = document.getElementById("<span style="color: red;">filltoPath"</span>); <br>
+                            <span style="color: blue;">const</span> ctx1 = canvas.getContext("<span style="color: red;">2d</span>"); <br><br>
+
+                           
+                            
+                            <span style="color: blue;">ctx1</span>.beginPath<span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx1</span>.strokeStyle = "<span style="color: red;">red</span>" <br>
+                            <span style="color: blue;">ctx1</span>.lineWidth = <span style="color: red;">2</span>; <br>
+                            <span style="color: blue;">ctx1</span>.moveTo  (<span style="color: red;">20, 20</span>); <br>
+                            <span style="color: blue;">ctx1</span>.lineTo  (<span style="color: red;">20, 120</span>); <br>
+                            <span style="color: blue;">ctx1</span>.lineTo  (<span style="color: red;">120, 120</span>); <br>
+                            <span style="color: blue;">ctx1</span>.closePath <span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx1</span>.fill<span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx1</span>.stroke <span style="color: red;">()</span>; <br><br>
+
+                            
+                            
+
+
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/script</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/body</span><span style="color: green;">&#62;</span> <br>
+                    </p> 
+                   
+                    <p class="htmlparagraph">
+                        កូដខាងលើបង្ហាញចេញដូចនេះ
+                    </p>
+                    <canvas id="filltoPath" width="300" height="150" style="border: 1px solid gray">Your Browser doesn't suppot with canvas tag</canvas>
+                    <script>
+                    const canvas = document.getElementById("filltoPath");
+                    const ctx1 = canvas.getContext("2d");
+                    
+                    ctx1.beginPath();
+                    ctx1.strokeStyle = "red"
+                    ctx1.lineWidth = 2;
+                    ctx1.moveTo (20, 20);
+                    ctx1.lineTo (20, 120);
+                    ctx1.lineTo (120, 120);
+                    ctx1.closePath ();
+                    ctx1.fill();
+                    ctx1.stroke ();
+                    
+                    </script>
+  
+                </div>
+            </section>
+
+            <section class="section1">
+            
+                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px;">
+                    <p class="htmlparagraph">
+                        ឧទាហរណ៏បន្ថែម៖ <br>
+                        ចាក់បំពេញពណ៌លឿងទៅលើ path
+                    </p>
+            
+                    <p class="htmlparagraph1">
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">!DOCTYPE html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">body</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        &#160;&#160;&#160;&#160;&#160;<span style="color: green;">&#60;</span><span style="color:darkred ;">canvas</span> <span style="color: red;">id</span><span style="color: blue;">="filltoPath1"</span> <span style="color: red;">width</span><span style="color: blue;">="300"</span> <span style="color: red;">height</span><span style="color: blue;">="150"</span> <span style="color: red;">style</span><span style="color: blue;">="border: 1px solid gray"</span><span style="color: green;">&#62;</span>Your Browser doesn't suppot with canvas tag<span style="color: green;">&#60;</span><span style="color:darkred ;">/canvas</span><span style="color: green;">&#62;</span> <br>
+                        
+                        
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">script</span><span style="color: green;">&#62;</span> <br>
+                        
+                            <span style="color: blue;">const</span> canvas1 = document.getElementById("<span style="color: red;">filltoPath1"</span>); <br>
+                            <span style="color: blue;">const</span> ctx2 = canvas1.getContext("<span style="color: red;">2d</span>"); <br><br>
+
+                           
+                            
+                            <span style="color: blue;">ctx2</span>.beginPath<span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx2</span>.strokeStyle = "<span style="color: red;">red</span>" <br>
+                            <span style="color: blue;">ctx2</span>.lineWidth = <span style="color: red;">2</span>; <br>
+                            <span style="color: blue;">ctx2</span>.moveTo  (<span style="color: red;">20, 20</span>); <br>
+                            <span style="color: blue;">ctx2</span>.lineTo  (<span style="color: red;">20, 120</span>); <br>
+                            <span style="color: blue;">ctx2</span>.lineTo  (<span style="color: red;">120, 120</span>); <br>
+                            <span style="color: blue;">ctx2</span>.closePath <span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx2</span>.fillStyle = <span style="color: red;">"yellow"</span>; <br>
+                            <span style="color: blue;">ctx2</span>.fill<span style="color: red;">()</span>; <br>
+                            <span style="color: blue;">ctx2</span>.stroke <span style="color: red;">()</span>; <br><br>
+
+                            
+                            
+
+
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/script</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/html</span><span style="color: green;">&#62;</span> <br>
+                        <span style="color: green;">&#60;</span><span style="color:darkred ;">/body</span><span style="color: green;">&#62;</span> <br>
+                    </p> 
+                   
+                    <p class="htmlparagraph">
+                        កូដខាងលើបង្ហាញចេញដូចនេះ
+                    </p>
+                    <canvas id="filltoPath1" width="300" height="150" style="border: 1px solid gray">Your Browser doesn't suppot with canvas tag</canvas>
+                    <script>
+                    const canvas1 = document.getElementById("filltoPath1");
+                    const ctx2 = canvas1.getContext("2d");
+                    
+                    ctx2.beginPath();
+                    ctx2.strokeStyle = "red"
+                    ctx2.lineWidth = 2;
+                    ctx2.moveTo (20, 20);
+                    ctx2.lineTo (20, 120);
+                    ctx2.lineTo (120, 120);
+                    ctx2.closePath ();
+                    ctx2.fillStyle = "yellow";
+                    ctx2.fill();
+                    ctx2.stroke ();
+                    
+                    </script>
+  
+                </div>
+            </section>
+
+            <h2 id="article" style="margin-top: 45px;">Browser Support</h2> 
+             <p class="htmlparagraph">
+                The <span style="color: green;">&#60;</span><span style="color:darkred ;">canvas</span><span style="color: green;">&#62;</span> element ជា HTML5 standard (2014). <br>
+
+                   <span style="color: red;">closePath()</span> អាចដំណើរការលើគ្រប់ browsers ទាំងអស់:
+              
+             </p>
+                    
+             <table class="table1" style="padding: 25px;">
+                 <tr class="tr1">
+                     
+                     <td class="td1" style="background-color: blanchedalmond; text-align: center;"><img src="../Image/chrome.png" width="45px" alt="chrome"></td>
+                     <td class="td1" style="background-color: blanchedalmond; text-align: center;"><img src="../Image/edge.png" width="45px" alt="edge"></td>
+                     <td class="td1" style="background-color: blanchedalmond; text-align: center;"><img src="../Image/opera.png" width="45px" alt="opera"></td>
+                     <td class="td1" style="background-color: blanchedalmond; text-align: center;"><img src="../Image/firefox.png" width="45px" alt="firefox"></td>
+                     <td class="td1" style="background-color: blanchedalmond; text-align: center;"><img src="../Image/safari.png" width="45px" alt="safari"></td>
+                     
+                    
+                 </tr>
+                 <tr class="tr1">
+                     
+                     <td class="td1" style="text-align: center;">Yes</td>
+                     <td class="td1" style="text-align: center;">9-11</td>
+                     <td class="td1" style="text-align: center;">Yes</td>
+                     <td class="td1" style="text-align: center;">Yes</td>
+                     <td class="td1" style="text-align: center;">Yes</td>
+                     
+                    
+                 </tr>
+                                         
+             </table> <br><br>
+             
+
+            <hr>
+            <p style="font-size: 25px; border-radius: 25% ; width: fit-content;"> <a class="a1" href="../html_graphic/html_canvas_reference.html" target="_blank">Canvas Reference</a></p>
+
+            
+                
+                
+                    
+                         
+                
+            <a class="aprevleft" href="../html_canvas_reference/html_canvas_beginPath.html">&#8810Previouse</a>
+            <a class="aprevright" href="../html_canvas_reference/html_canvas_isPointInPath.html">Next&#8811</a> <br>
+</main>       
+           
+         <aside class="rightside">
+            <h1>About us</h1>
+            <p>this right side</p>
+                
+
+         </aside>
+            
+   
+    
+          <footer style="display:inline-block">
+            &COPY; copyright| @Your Class | Contact: Email: veasnachroeun@gmail.com
+        </footer> 
+    
+    
+</body>
+
+
+</html>

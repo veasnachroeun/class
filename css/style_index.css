@@ -1,0 +1,65 @@
+.bodyindex{
+    background-image: url(../Image/Webbackground.jpg);
+}
+#section1{
+    border: 7px inset rgb(165, 243, 20);
+    width: 350px;
+    height: 385px;
+    padding: 15px;
+    margin: 35px;
+    
+    overflow: hidden;
+    float: left;
+}
+#section1:hover{
+    border: 7px inset rgb(238, 212, 68);
+    
+    
+   
+    
+    background-color: rgb(84, 5, 87);
+    
+
+}
+#h3section{
+   
+    text-align: center;
+    background-color: rgb(55, 110, 136);
+    color: aliceblue;
+   font-family: Moul;
+   font-size: 15px;
+}
+#artcle1{
+    border: 1px solid blue;
+    height: 285px;
+    width: 310px;
+    
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+#artcle1:hover{
+    background-color: rgb(243, 247, 245);
+    border: 2px solid rgb(255, 0, 170);
+    border-radius: 15px;
+}
+#h1section{
+    color: rgb(233, 210, 255);
+   
+
+}
+#psection1{
+    margin-top: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+.asection1{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+.asection1:hover{
+    color: rgb(0, 255, 170);
+    text-decoration: underline;
+}
