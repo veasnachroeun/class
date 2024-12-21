@@ -4,51 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="stye guide,Declare document type , lowercase element names,lowercase attribute names,
-    Quote attribute values,specify alt, width, and height for images,spaces and equal signs, acoud long code lines, blank lines
-    and indentation, never skip the title elemnent,Omitting html and body, omitting head, close empty eleemnts, add lang attribute,
-    meta data, setting the viewport, html comments, susing style sheets, loading javascript in html, accessing html elements with javascript
-    use lower case file names,fil extensions, differences between .htm and .html, default filenames">
-    <meta name="description"  content="Webdebeloper free Html, css, javacript tutorial">
-    <title>HTML_Style_Guide</title>
+    <meta name="keywords" content="word bacsic,office word,maicrosoft word,introduction word,word tutorial,ribbon,">
+    <meta name="description"  content="intoduct to microsoft office word bacsic">
+    <title>HTML_Style_Guade</title>
     <link href='https://fonts.googleapis.com/css?family=Khmer' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moul">
     <link rel="icon" href="../favicon/favicon.ico">
     <link rel="stylesheet" href="../css/heading.css">
     <link rel="stylesheet" href="../css/startercss.css">
     <link rel="stylesheet" href="../css/stylecss.css">
+    <link rel="stylesheet" href="../css/Bookstylesheet.css">
+    <script defer src="/javascript/javascript.js"></script>
 </head>
 <body style="background-color: #e0eeef;" >
     <header class="head">
       <a href="../Index.html"><img src="../Image/Your Class.jpg" alt="Y-C=Your Class(logo)"></a>  
         <h1 class="headh1"><a href="../Index.html">Your Class</a></h1>
     </header>
-    <nav class="menu">
-        <nav class="menu1">
-            <a href="../index.html" class="menua1">Home</a>
-            <a href="" class="menua1">|</a>
-            <a href="../html/Starter.html" class="menua1">Html</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Css</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Javacript</a>
-            <a href="" class="menua1">|</a>
-            <a href="../Word/Lesson1.html" class="menua1">Office Word</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Typing Tutorial</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Other</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Video Tutorial</a>
-        </nav>
-    </nav>
-    <div class="leftside">
-        <nav id="navleft">
-            <h2 class="htmltutorial">THTML Tutorial</h2>
-            <a class="diva" href="./Starter.html">html - Starter</a>
-            <a class="diva" href="./What's_html.html">html - What's html?</a>
-            <a class="diva" href="./Semantic_element.html">html - Semantic</a>
-            <a class="diva" href="./HTML_Style_Guade.html">html - Style_Guide</a>
+    <ul id="menubar">
+        <li id="menubar1" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        <li id="menubar1"><a href="../index.html" class="home">Home</a></li>
+        <li id="menubar1"><a href="../html/Starter.html" class="barhtml">Html</a></li>
+        <li id="menubar1"><a href="#" class="barcss">Css</a></li>
+        <li id="menubar1"><a href="#" class="barjava">Javacript</a></li>
+        <li id="menubar1"><a href="../Word/Lesson1.html" class="barword">Office Word</a></li>
+        <li id="menubar1"><a href="../book1/Eng_Lesson1.html" class="bareng">English Tutorial</a></li>
+        <li id="menubar1"><a href="#" class="bartyp">Typing Tutorial</a></li>
+        <li id="menubar1"><a href="../ព្រះធម៌/អរិយសច្ចៈ.html" class="barbudish">ព្រះធម៌</a></li>
+        <li id="menubar1"><a href="#" class="barvdo">Video Tutorial</a></li>
+        <li id="menubar1"><a href="../html/Note_Page.html" target="_blank" class="barnote">Note Page</a></li>
+    </ul>
+        <script>
+            function showsidebar(){
+                const leftside = document.querySelector('.leftside')
+                leftside.style.display = 'flex'
+            }
+        </script>
+        <script>
+            function closesidebar(){
+                const leftside = document.querySelector('.leftside')
+                leftside.style.display = 'none'
+            }
+        </script>
+        <div class="leftside">
+            <nav id="navleft">
+                <h2 class="htmltutorial">html Tutorial <span style="background-color: aquamarine;" onclick="closesidebar()" class="exitbar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span></h2>
+            <a class="divast" href="../html/Starter.html">html - Starter</a>
+            <a class="divawh" href="../html/What's_html.html">html - What's html?</a>
+            <a class="divaed" href="../html/html_editor.html">html - Editors</a>
+            <a class="divaba" href="../html/html_basic.html">html - Basic</a>
+            <a class="divael" href="../html/html_element.html">html - Element</a>
+            <a class="divase" href="../html/Semantic_element.html">html - Semantic</a>
+            <a class="divaty" href="../html/HTML_Style_Guade.html">html - Style_Guide</a>
             <details >
                 <summary class="diva"><a class="sumanchor" href="./HTML_Entities.html">html - Entities</a></summary>
                 <a class="divadetail" href="../html/html5_entities_a.html">HTML5 Entity A</a>

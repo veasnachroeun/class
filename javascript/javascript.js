@@ -1,7 +1,7 @@
 const pathName = window.location.pathname;
 
 const pageName = pathName.split("/").pop();
-
+//html
 if(pageName ==="index.html"){
     document.querySelector(".home").classList.add("activelink");
 }
@@ -9,7 +9,43 @@ if(pageName ==="Starter.html"){
     document.querySelector(".barhtml").classList.add("activelink");
 }
 if(pageName ==="Starter.html"){
-    document.querySelector(".diva").classList.add("activelink");
+    document.querySelector(".divast").classList.add("activelink");
+}
+if(pageName ==="What's_html.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="What's_html.html"){
+    document.querySelector(".divawh").classList.add("activelink");
+}
+if(pageName ==="html_editor.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="html_editor.html"){
+    document.querySelector(".divaed").classList.add("activelink");
+}
+if(pageName ==="html_basic.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="html_basic.html"){
+    document.querySelector(".divaba").classList.add("activelink");
+}
+if(pageName ==="html_element.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="html_element.html"){
+    document.querySelector(".divael").classList.add("activelink");
+}
+if(pageName ==="Semantic_element.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="Semantic_element.html"){
+    document.querySelector(".divase").classList.add("activelink");
+}
+if(pageName ==="HTML_Style_Guade.html"){
+    document.querySelector(".barhtml").classList.add("activelink");
+}
+if(pageName ==="HTML_Style_Guade.html"){
+    document.querySelector(".divaty").classList.add("activelink");
 }
 //microsoft word
     if(pageName ==="Lesson1.html"){
@@ -141,4 +177,4 @@ if(pageName ==="Eng_Lesson21.html"){
     document.querySelector(".divatwentyone").classList.add("activelink");
 }
 
-
+alert(pageName)

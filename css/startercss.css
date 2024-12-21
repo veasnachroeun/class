@@ -53,9 +53,9 @@ a{
 }
 a:hover{
     text-decoration: underline red 2px;
-    background-color: rgba(156, 24, 243, 0.163);
-    
-    color: #111;
+    background-color: rgba(231, 220, 225, 0.822);
+    font-size: 15px;
+    color: #070101;
 
 }
 .home:hover{
@@ -138,7 +138,7 @@ a:hover{
 .diva, .divaone, .divatwo, .divathree, .divafour, .divafive, .divasix, .divaseven,
 .divaeight, .divanine, .divaten, .divaeleven, .divatwelve, .divathirteen, .divafourteen,
 .divafifteen, .divasixteen, .divaseventeen, .divaeighteen, .divanineteen, .divatwenty, .divatwentyone,
-.divasum {
+.divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty  {
    width: 200px;
    
    margin-left: 5px;
@@ -316,7 +316,7 @@ p{
     .home{
         font-size: 13px;
     }
-.bar{
+.bar, .barhtml, .barcss, .barjava, .barword, .bareng, .bartyp, .barbudish, .barvdo, .barnote{
     font-size: 13px;
 }
     
