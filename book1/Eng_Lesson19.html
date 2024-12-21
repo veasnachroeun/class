@@ -4,73 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="English Tutorial,Lesson19 essential english book1,shcool of life,Your class, english teaching in khmer,book1 in lesson19">
-    <meta name="description"  content="Book1 course english tutorial in khmer">
-    <title>English Tutorial Lesson19</title>
+    <meta name="keywords" content="word bacsic,office word,maicrosoft word,introduction word,word tutorial,ribbon,">
+    <meta name="description"  content="intoduct to microsoft office word bacsic">
+    <title>Microsoft Word Lesson-1</title>
     <link href='https://fonts.googleapis.com/css?family=Khmer' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Moul">
     <link rel="icon" href="../favicon/favicon.ico">
     <link rel="stylesheet" href="../css/heading.css">
     <link rel="stylesheet" href="../css/startercss.css">
-    <link rel="stylesheet" href="../css/topmenu.css">
+    <link rel="stylesheet" href="../css/stylecss.css">
     <link rel="stylesheet" href="../css/Bookstylesheet.css">
-    
-    <style>
-        a{
-            text-decoration: none;
-            color: black;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
-      
-    
-    </style>
-   
+    <script defer src="/javascript/javascript.js"></script>
 </head>
 <body style="background-color: #e0eeef;" >
     <header class="head">
       <a href="../Index.html"><img src="../Image/Your Class.jpg" alt="Y-C=Your Class(logo)"></a>  
         <h1 class="headh1"><a href="../Index.html">Your Class</a></h1>
     </header>
-    <nav class="topmenu">
+    <ul id="menubar">
+        <li id="menubar1" onclick="showsidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        <li id="menubar1"><a href="../index.html" class="home">Home</a></li>
+        <li id="menubar1"><a href="../html/Starter.html" class="barhtml">Html</a></li>
+        <li id="menubar1"><a href="#" class="barcss">Css</a></li>
+        <li id="menubar1"><a href="#" class="barjava">Javacript</a></li>
+        <li id="menubar1"><a href="../Word/Lesson1.html" class="barword">Office Word</a></li>
+        <li id="menubar1"><a href="../book1/Eng_Lesson1.html" class="bareng">English Tutorial</a></li>
+        <li id="menubar1"><a href="#" class="bartyp">Typing Tutorial</a></li>
+        <li id="menubar1"><a href="../ព្រះធម៌/អរិយសច្ចៈ.html" class="barbudish">ព្រះធម៌</a></li>
+        <li id="menubar1"><a href="#" class="barvdo">Video Tutorial</a></li>
+        <li id="menubar1"><a href="../html/Note_Page.html" target="_blank" class="barnote">Note Page</a></li>
+    </ul>
+        <script>
+            function showsidebar(){
+                const leftside = document.querySelector('.leftside')
+                leftside.style.display = 'flex'
+            }
+        </script>
+        <script>
+            function closesidebar(){
+                const leftside = document.querySelector('.leftside')
+                leftside.style.display = 'none'
+            }
+        </script>
         
-            <a href="../index.html" class="menua1">Home</a>
-            <a href="" class="menua1">|</a>
-            <a href="../html/Starter.html" class="menua1">Html</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Css</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Javacript</a>
-            <a href="" class="menua1">|</a>
-          
-            <a href="../Word/Lesson1.html" class="menua1">Office Word</a>
-            <a href="" class="menua1">|</a>
-            <a href="../book1/Eng_Lesson1.html" class="menua1">English Tutorial</a>
-            <a href="" class="menua1">|</a>
-            <a href="#" class="menua1">Video Tutorial</a>
-       
-    </nav>
-    <nav class="navleftside">
         
-        <h2 class="htmltutorial">Book1 Eng-Tutorial</h2>
-        <a class="diva" href="../book1/Eng_Lesson1.html">Lesson-1 (One)</a>
-        <a class="diva" href="../book1/Eng_Lesson2.html">Lesson-2 (Two)</a>
-        <a class="diva" href="../book1/Eng_Lesson3.html">Lesson-3 (Three)</a>
-        <a class="diva" href="../book1/Eng_Lesson4.html">Lesson-4 (Four)</a>
-        <a class="diva" href="../book1/Eng_Lesson5.html">Lesson-5 (Five)</a>
-        <a class="diva" href="../book1/Eng_Lesson6.html">Lesson-6 (Six)</a>
-        <a class="diva" href="../book1/Eng_Lesson7.html">Lesson-7 (Seven)</a>
-        <a class="diva" href="../book1/Eng_Lesson8.html">Lesson-8 (Eight)</a>
-        <a class="diva" href="../book1/Eng_Lesson9.html">Lesson-9 (Nine)</a>
-        <a class="diva" href="../book1/Eng_Lesson16.html">Lesson-16 (Sixteen)</a>
-        <a class="diva" href="../book1/Eng_Lesson17.html">Lesson-17 (Seventeen)</a>
-        <a class="diva" href="../book1/Eng_Lesson18.html">Lesson-18 (Eighteen)</a>
-        <a class="diva" href="../book1/Eng_Lesson19.html">Lesson-19 (Nineteen)</a>
-        <a class="diva" href="../book1/Eng_Lesson20.html">Lesson-20 (Twenty)</a> 
-        <a class="diva" href="../book1/Eng_Lesson21.html">Lesson-21 (Twenty one)</a>
-                      
+        <div class="leftside">
+            <nav id="navleft">
+                <h2 class="htmltutorial">Eng Tutorial <span style="background-color: aquamarine;" onclick="closesidebar()" class="exitbar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></span></h2>
+        <a class="divaone" href="../book1/Eng_Lesson1.html">Lesson-1 (One)</a>
+        <a class="divatwo" href="../book1/Eng_Lesson2.html">Lesson-2 (Two)</a>
+        <a class="divathree" href="../book1/Eng_Lesson3.html">Lesson-3 (Three)</a>
+        <a class="divafour" href="../book1/Eng_Lesson4.html">Lesson-4 (Four)</a>
+        <a class="divafive" href="../book1/Eng_Lesson5.html">Lesson-5 (Five)</a>
+        <a class="divasix" href="../book1/Eng_Lesson6.html">Lesson-6 (Six)</a>
+        <a class="divaseven" href="../book1/Eng_Lesson7.html">Lesson-7 (Seven)</a>
+        <a class="divaeight" href="../book1/Eng_Lesson8.html">Lesson-8 (Eight)</a>
+        <a class="divanine" href="../book1/Eng_Lesson9.html">Lesson-9 (Nine)</a>
+        <a class="divasixteen" href="../book1/Eng_Lesson16.html">Lesson-16 (Sixteen)</a>
+        <a class="divaseventeen" href="../book1/Eng_Lesson17.html">Lesson-17 (Seventeen)</a>
+        <a class="divaeighteen" href="../book1/Eng_Lesson18.html">Lesson-18 (Eighteen)</a>
+        <a class="divanineteen" href="../book1/Eng_Lesson19.html">Lesson-19 (Nineteen)</a>
+        <a class="divatwenty" href="../book1/Eng_Lesson20.html">Lesson-20 (Twenty)</a> 
+        <a class="divatwentyone" href="../book1/Eng_Lesson21.html">Lesson-21 (Twenty one)</a>         
+             
     </nav>
+    </div>
 
 <main class="middle" id="main">
     <h1 class="bookhead"><a href="../book1/translate.html#lesson" target="_blank">LESSON</a>-<a href="../book1/translate.html#nineteen" target="_blank">19</a></h1>
@@ -1983,8 +1981,7 @@
 </main>       
            
          <aside class="sidebar1">
-            <h1>About us</h1>
-            <p>this right side</p>
+            
                 
 
          </aside>

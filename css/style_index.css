@@ -63,3 +63,7 @@
     color: rgb(0, 255, 170);
     text-decoration: underline;
 }
+.middle{
+    overflow: auto;
+    height: 10px;
+}

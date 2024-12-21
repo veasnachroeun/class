@@ -73,18 +73,17 @@ a:hover{
 }
 
 .leftside{
-    display: block;
+    /*display: block;*/
     width: 15%;
-    height: 850px;
+    height: 550px;
     float: left;
     position: sticky;
-    top: 10px;
-    overflow: hidden;
-    overflow-y: scroll;
+    top: 0px;
+    overflow: auto;
     z-index: 1;
 }   
 .activelink{
-    background-color: #05ceceee;
+    background-color: #0df033ee;
     color: red;
     font-size: 20px;
 }
@@ -136,7 +135,10 @@ a:hover{
     
     
 }
-.diva {
+.diva, .divaone, .divatwo, .divathree, .divafour, .divafive, .divasix, .divaseven,
+.divaeight, .divanine, .divaten, .divaeleven, .divatwelve, .divathirteen, .divafourteen,
+.divafifteen, .divasixteen, .divaseventeen, .divaeighteen, .divanineteen, .divatwenty, .divatwentyone,
+.divasum {
    width: 200px;
    
    margin-left: 5px;
