@@ -138,7 +138,8 @@ a:hover{
 .diva, .divaone, .divatwo, .divathree, .divafour, .divafive, .divasix, .divaseven,
 .divaeight, .divanine, .divaten, .divaeleven, .divatwelve, .divathirteen, .divafourteen,
 .divafifteen, .divasixteen, .divaseventeen, .divaeighteen, .divanineteen, .divatwenty, .divatwentyone,
-.divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty  {
+.divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty,
+.divacsst, .divacsin, .divacssy, .divacsse, .divacsho, .divacsco, .divacsom, .diva, .divacsps, .divacseu, .divacsat  {
    width: 200px;
    
    margin-left: 5px;
@@ -151,6 +152,7 @@ a:hover{
    
     
 }
+ 
 .sumanchor{
     text-decoration: none;
     color: darkgreen;

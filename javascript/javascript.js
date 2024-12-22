@@ -177,4 +177,59 @@ if(pageName ==="Eng_Lesson21.html"){
     document.querySelector(".divatwentyone").classList.add("activelink");
 }
 
-alert(pageName)
+//css tutorial
+
+if(pageName ==="css_tutorial.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_tutorial.html"){
+    document.querySelector(".divacsst").classList.add("activelink");
+}
+if(pageName ==="css_introduction.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_introduction.html"){
+    document.querySelector(".divacsin").classList.add("activelink");
+}
+if(pageName ==="css_syntax.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_syntax.html"){
+    document.querySelector(".divacssy").classList.add("activelink");
+}
+if(pageName ==="css_selector.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_selector.html"){
+    document.querySelector(".divacsse").classList.add("activelink");
+}
+if(pageName ==="css_howto.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_howto.html"){
+    document.querySelector(".divacsho").classList.add("activelink");
+}
+if(pageName ==="css_comment.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_comment.html"){
+    document.querySelector(".divacsco").classList.add("activelink");
+}
+if(pageName ==="css_combinator.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_combinator.html"){
+    document.querySelector(".divacsom").classList.add("activelink");
+}
+if(pageName ==="css_pseudo_class.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_pseudo_class.html"){
+    document.querySelector(".divacseu").classList.add("activelink");
+}
+if(pageName ==="css_attribute.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_attribute.html"){
+    document.querySelector(".divacsat").classList.add("activelink");
+}
