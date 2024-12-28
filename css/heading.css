@@ -10,7 +10,7 @@
     width: 100%;
     z-index: 12;
     
-    background-color:#76b5c5 ;
+    background-color:#c576b844 ;
   overflow: hidden;
   
     
@@ -20,8 +20,8 @@
     
     width: 100px;
     height: 100px;
-    border-radius: 25px solid red ;
-    padding: 7px;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
     margin-left: 35px;
     float: left;
 
