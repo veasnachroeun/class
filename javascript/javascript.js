@@ -23,6 +23,7 @@ if(pageName ==="html_editor.html"){
 if(pageName ==="html_editor.html"){
     document.querySelector(".divaed").classList.add("activelink");
 }
+alert
 if(pageName ==="html_basic.html"){
     document.querySelector(".barhtml").classList.add("activelink");
 }
@@ -233,3 +234,4 @@ if(pageName ==="css_attribute.html"){
 if(pageName ==="css_attribute.html"){
     document.querySelector(".divacsat").classList.add("activelink");
 }
+alert(pageName)
