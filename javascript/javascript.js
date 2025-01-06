@@ -236,6 +236,3 @@ if(pageName ==="css_attribute.html"){
 }
 
 
-
-alert(pageName)
-
