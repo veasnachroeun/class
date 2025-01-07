@@ -216,6 +216,53 @@ if(pageName ==="css_comment.html"){
 if(pageName ==="css_comment.html"){
     document.querySelector(".divacsco").classList.add("activelink");
 }
+if(pageName ==="css_color.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_color.html"){
+    document.querySelector(".colordivadetail").classList.add("activelink");
+}
+if(pageName ==="css_color.html"){
+    document.querySelector(".divacsscolor").classList.add("activelink");
+}
+if(pageName ==="css_rgb.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_rgb.html"){
+    document.querySelector(".divacsscolor").classList.add("activelink");
+}
+if(pageName ==="css_rgb.html"){
+    document.querySelector(".rgbdivadetail").classList.add("activelink");
+}
+if(pageName ==="css_hex.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_hex.html"){
+    document.querySelector(".divacsscolor").classList.add("activelink");
+}
+if(pageName ==="css_hex.html"){
+    document.querySelector(".hexdivadetail").classList.add("activelink");
+}
+if(pageName ==="css_hsl.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_hsl.html"){
+    document.querySelector(".divacsscolor").classList.add("activelink");
+}
+if(pageName ==="css_hsl.html"){
+    document.querySelector(".hsldivadetail").classList.add("activelink");
+}
+
+if(pageName ==="css_backgrowncolor.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor.html"){
+    document.querySelector(".divacsscbackground").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor.html"){
+    document.querySelector(".backgroundcolordivadetail").classList.add("activelink");
+}
+
 if(pageName ==="css_combinator.html"){
     document.querySelector(".barcss").classList.add("activelink");
 }
@@ -227,6 +274,12 @@ if(pageName ==="css_pseudo_class.html"){
 }
 if(pageName ==="css_pseudo_class.html"){
     document.querySelector(".divacseu").classList.add("activelink");
+}
+if(pageName ==="css_pseudo_element.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_pseudo_element.html"){
+    document.querySelector(".divacseue").classList.add("activelink");
 }
 if(pageName ==="css_attribute.html"){
     document.querySelector(".barcss").classList.add("activelink");

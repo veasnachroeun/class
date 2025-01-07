@@ -53,7 +53,7 @@ a{
 }
 a:hover{
     text-decoration: underline red 2px;
-    background-color: rgba(231, 220, 225, 0.822);
+    background-color: rgb(6, 100, 240);
     font-size: 15px;
     color: #070101;
 
@@ -139,19 +139,30 @@ a:hover{
 .divaeight, .divanine, .divaten, .divaeleven, .divatwelve, .divathirteen, .divafourteen,
 .divafifteen, .divasixteen, .divaseventeen, .divaeighteen, .divanineteen, .divatwenty, .divatwentyone,
 .divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty,
-.divacsst, .divacsin, .divacssy, .divacsse, .divacsho, .divacsco, .divacsom, .diva, .divacsps, .divacseu, .divacsat  {
+.divacsst, .divacsin, .divacssy, .divacsse, .divacsho, .divacsco, .divacsom, .diva, .divacsps, .divacseu, .divacsat,
+.divacsscolor, .colordivadetail, .rgbdivadetail, .hexdivadetail, .hsldivadetail, .divacsscbackground, .backgroundcolordivadetail {
    width: 200px;
-   
    margin-left: 5px;
     font-size: 20px;
     float: left;
     padding: 10px;
-   
     text-decoration: none;
     color: rgb(90, 46, 192);
    
     
 }
+.divadetail {
+    width: 200px;
+    margin-left: 25px;
+     font-size: 15px;
+     float: left;
+     padding: 10px;
+     background-color: rgb(74, 114, 141);
+     color: aliceblue;
+     text-decoration: none;
+     border-bottom: 1px inset;
+   
+ }
  
 .sumanchor{
     text-decoration: none;
@@ -165,22 +176,7 @@ a:hover{
 .diva, .tag{
     font-size: 1.1rem;
 }
-.divadetail {
-    width: 200px;
-    margin-left: 25px;
-     font-size: 15px;
-     float: left;
-     padding: 10px;
-     background-color: rgb(74, 114, 141);
-     color: aliceblue;
-     text-decoration: none;
-     border-bottom: 1px inset;
-     
-    
-    
-     
-     
- }
+
  /*.divadetail:hover{
     background-color: cadetblue;
  }

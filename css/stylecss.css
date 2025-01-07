@@ -14,7 +14,7 @@
     background-color: red;
     position: relative;
     animation-name: example;
-    animation-duration: 8s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
   }
   
