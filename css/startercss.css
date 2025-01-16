@@ -140,7 +140,8 @@ a:hover{
 .divafifteen, .divasixteen, .divaseventeen, .divaeighteen, .divanineteen, .divatwenty, .divatwentyone,
 .divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty,
 .divacsst, .divacsin, .divacssy, .divacsse, .divacsho, .divacsco, .divacsom, .diva, .divacsps, .divacseu, .divacsat,
-.divacsscolor, .colordivadetail, .rgbdivadetail, .hexdivadetail, .hsldivadetail, .divacsscbackground, .backgroundcolordivadetail {
+.divacsscolor, .colordivadetail, .rgbdivadetail, .hexdivadetail, .hsldivadetail, .divacsscbackground, .backgroundcolordivadetail,
+.backgroundimagedivadetail {
    width: 200px;
    margin-left: 5px;
     font-size: 20px;

@@ -262,6 +262,15 @@ if(pageName ==="css_backgrowncolor.html"){
 if(pageName ==="css_backgrowncolor.html"){
     document.querySelector(".backgroundcolordivadetail").classList.add("activelink");
 }
+if(pageName ==="css_backgrowncolor_image.html"){
+    document.querySelector(".divacsscbackground").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor_image.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor_image.html"){
+    document.querySelector(".backgroundimagedivadetail").classList.add("activelink");
+}
 
 if(pageName ==="css_combinator.html"){
     document.querySelector(".barcss").classList.add("activelink");
