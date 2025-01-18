@@ -272,6 +272,25 @@ if(pageName ==="css_backgrowncolor_image.html"){
     document.querySelector(".backgroundimagedivadetail").classList.add("activelink");
 }
 
+if(pageName ==="css_backgrown_repeat.html"){
+    document.querySelector(".divacsscbackground").classList.add("activelink");
+}
+if(pageName ==="css_backgrown_repeat.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_backgrown_repeat.html"){
+    document.querySelector(".backgroundrepeatdivadetail").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor_attachment.html"){
+    document.querySelector(".divacsscbackground").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor_attachment.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_backgrowncolor_attachment.html"){
+    document.querySelector(".backgroundattachdivadetail").classList.add("activelink");
+}
+
 if(pageName ==="css_combinator.html"){
     document.querySelector(".barcss").classList.add("activelink");
 }
