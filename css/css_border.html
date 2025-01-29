@@ -128,22 +128,190 @@
                     <div class="htmldevice" style="overflow: hidden;border: 1px groove; background-color:rgba(255, 255, 100, 0.25);padding: 5px;">
                        
                         
-                        <h2>ជាឧទាហរណ៏</h2>
+                        <h2>CSS Border Style</h2>
+                        <p class="htmlparagraph">
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The  <span style="background-color: rgba(255, 0, 0, 0.2); color: rgb(255, 0, 0);">border-style</span> property  សម្រាប់កំណត់ ប្រភេទបន្ទាត់ផ្សេងៗ ក្នុងការបង្ហាញ ខាងក្រោមនេះ ជាការកំណត់បង្ហាញ<br>    
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">dotted</span> កំណត់ស៊ុមមានចំណុច<br>  
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">dashed</span> កំណត់ស៊ុមមានស្នាមបន្ទាត់បន្តបន្ទាប់<br>                        
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">solid</span> កំណត់ស៊ុមមានបន្ទាត់ជាប់<br>                        
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">double</span> កំណត់ស៊ុមមានបន្ទាត់ទ្វេដង<br>                        
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">groove</span> កំណត់ស៊ុម 3D ប្រភេទជ្រាប (grooved)។ ប្រសិទ្ធិភាពអាស្រ័យលើតម្លៃពណ៌ស៊ុម (border-color)<br>                        
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">ridge</span> កំណត់ស៊ុម 3D ប្រភេទកំពូង (ridged)។ ប្រសិទ្ធិភាពអាស្រ័យលើតម្លៃពណ៌ស៊ុម (border-color)<br>  
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">inset</span> កំណត់ស៊ុម 3D ប្រភេទចូលក្នុង (inset)។ ប្រសិទ្ធិភាពអាស្រ័យលើតម្លៃពណ៌ស៊ុម (border-color)<br>  
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">outset</span> កំណត់ស៊ុម 3D ប្រភេទលេចចេញ (outset)។ ប្រសិទ្ធិភាពអាស្រ័យលើតម្លៃពណ៌ស៊ុម (border-color)<br>  
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">none</span> កំណត់មិនមានស៊ុម<br>  
+                             * <span style="background-color: rgba(0, 255, 0, 0.2); color: rgb(255, 0, 0);">hidden</span> កំណត់ស៊ុមលាក់ (hidden)<br> <br>                                                    
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  The  <span style="background-color: rgba(255, 0, 0, 0.2); color: rgb(255, 0, 0);">border-style</span> property  អាចមានតម្លៃពីមួយដល់បួន (for the top border, right border, bottom border, and the left border).<br>    
+                            </p>
                             
                             <section class="section1">
-            
-                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%;">
+            <h1>ឧទាហរណ៏</h1>
+                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px;">
               
                                     <p class="htmlparagraph1">
                                         
-                                      <span style="color:darkred ;">body</span> { <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">background-image:</span><span style="color: green;"> url(/Image/Your\ Class150x150.png);</span> <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">background-repeat:</span><span style="color: green;"> no-repeat;</span> <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">background-position:</span><span style="color: green;"> right bottom;</span> <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red;">background-attachment:</span><span style="color: green;"> fixed;</span> <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  } <br>
+                                      <span style="color:darkred ;">p.dotted</span> {<span style="color: red;">border-style:</span><span style="color: green;"> dotted;</span>} <br>
                      
                                 </div> 
+                                <div style="overflow: hidden;padding: 5px; border: dotted;">
+                                    <p class="htmlparagraph">
+                                     &#160&#160&#160&#160 A dotted border.
+                                      <br>
+             
+                                    </p>
+                                
+                                        </div>
+
+                                        <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                            <p class="htmlparagraph1">
+                                                
+                                              <span style="color:darkred ;">p.dashed</span> {<span style="color: red;">border-style:</span><span style="color: green;"> dashed;</span>} <br>
+                             
+                                        </div> 
+                                        <div style="overflow: hidden;padding: 5px; border: dashed; margin-top: 0px;">
+                                            <p class="htmlparagraph">
+                                             &#160&#160&#160&#160 A dashed border.
+                                              <br>
+                     
+                                            </p>
+                                        
+                                                </div>
+                                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                    <p class="htmlparagraph1">
+                                                        
+                                                      <span style="color:darkred ;">p.solid</span> {<span style="color: red;">border-style:</span><span style="color: green;"> solid;</span>} <br>
+                                     
+                                                </div> 
+                                                <div style="overflow: hidden;padding: 5px; border: solid; margin-top: 0px;">
+                                                    <p class="htmlparagraph">
+                                                     &#160&#160&#160&#160 A solid border.
+                                                      <br>
+                             
+                                                    </p>
+                                                
+                                                        </div>
+                                                        <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                            <p class="htmlparagraph1">
+                                                                
+                                                              <span style="color:darkred ;">p.double</span> {<span style="color: red;">border-style:</span><span style="color: green;"> double;</span>} <br>
+                                             
+                                                        </div> 
+                                                        <div style="overflow: hidden;padding: 5px; border: double; margin-top: 0px;">
+                                                            <p class="htmlparagraph">
+                                                             &#160&#160&#160&#160 A double border.
+                                                              <br>
+                                     
+                                                            </p>
+                                                        
+                                                                </div>
+                                                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                    <p class="htmlparagraph1">
+                                                                        
+                                                                      <span style="color:darkred ;">p.groove</span> {<span style="color: red;">border-style:</span><span style="color: green;"> groove;</span>} <br>
+                                                     
+                                                                </div> 
+                                                                <div style="overflow: hidden;padding: 5px; border: groove; margin-top: 0px;">
+                                                                    <p class="htmlparagraph">
+                                                                     &#160&#160&#160&#160 កំណត់ស៊ុម 3D ប្រភេទជ្រាប (grooved)
+                                                                      <br>
+                                             
+                                                                    </p>
+                                                                
+                                                                        </div>
+                                                                        <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                            <p class="htmlparagraph1">
+                                                                                
+                                                                              <span style="color:darkred ;">p.ridge</span> {<span style="color: red;">border-style:</span><span style="color: green;"> ridge;</span>} <br>
+                                                             
+                                                                        </div> 
+                                                                        <div style="overflow: hidden;padding: 5px; border: ridge; margin-top: 0px;">
+                                                                            <p class="htmlparagraph">
+                                                                             &#160&#160&#160&#160 កំណត់ស៊ុម 3D ប្រភេទកំពូង (ridged)
+                                                                              <br>
+                                                     
+                                                                            </p>
+                                                                        
+                                                                                </div>   
+                                                                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                                    <p class="htmlparagraph1">
+                                                                                        
+                                                                                      <span style="color:darkred ;">p.inset</span> {<span style="color: red;">border-style:</span><span style="color: green;"> inset;</span>} <br>
+                                                                     
+                                                                                </div> 
+                                                                                <div style="overflow: hidden;padding: 5px; border: inset; margin-top: 0px;">
+                                                                                    <p class="htmlparagraph">
+                                                                                     &#160&#160&#160&#160 កំណត់ស៊ុម 3D ប្រភេទចូលក្នុង (inset)
+                                                                                      <br>
+                                                             
+                                                                                    </p>
+                                                                                
+                                                                                        </div>  
+                                                                                        <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                                            <p class="htmlparagraph1">
+                                                                                                
+                                                                                              <span style="color:darkred ;">p.outset</span> {<span style="color: red;">border-style:</span><span style="color: green;"> outset;</span>} <br>
+                                                                             
+                                                                                        </div> 
+                                                                                        <div style="overflow: hidden;padding: 5px; border: outset; margin-top: 0px;">
+                                                                                            <p class="htmlparagraph">
+                                                                                             &#160&#160&#160&#160 កំណត់ស៊ុម 3D ប្រភេទលេចចេញ (outset)
+                                                                                              <br>
+                                                                     
+                                                                                            </p>
+                                                                                        
+                                                                                                </div>  
+                                                                                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                                                    <p class="htmlparagraph1">
+                                                                                                        
+                                                                                                      <span style="color:darkred ;">p.none</span> {<span style="color: red;">border-style:</span><span style="color: green;"> none;</span>} <br>
+                                                                                     
+                                                                                                </div> 
+                                                                                                <div style="overflow: hidden;padding: 5px; border: none; margin-top: 0px;">
+                                                                                                    <p class="htmlparagraph">
+                                                                                                     &#160&#160&#160&#160 កំណត់មិនមានស៊ុម
+                                                                                                      <br>
+                                                                             
+                                                                                                    </p>
+                                                                                                
+                                                                                                        </div> 
+                                                                                                        <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                                                            <p class="htmlparagraph1">
+                                                                                                                
+                                                                                                              <span style="color:darkred ;">p.hidden</span> {<span style="color: red;">border-style:</span><span style="color: green;"> hidden;</span>} <br>
+                                                                                             
+                                                                                                        </div> 
+                                                                                                        <div style="overflow: hidden;padding: 5px; border: hidden; margin-top: 0px;">
+                                                                                                            <p class="htmlparagraph">
+                                                                                                             &#160&#160&#160&#160 កំណត់ស៊ុមលាក់ (hidden)
+                                                                                                              <br>
+                                                                                     
+                                                                                                            </p>
+                                                                                                        
+                                                                                                                </div> 
+                                                                                                                <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 85%; margin-bottom: 0px; margin-top: 15px;">
+              
+                                                                                                                    <p class="htmlparagraph1">
+                                                                                                                        
+                                                                                                                      <span style="color:darkred ;">p.mix</span> {<span style="color: red;">border-style:</span><span style="color: green;"> dotted dashed solid double;</span>} <br>
+                                                                                                     
+                                                                                                                </div> 
+                                                                                                                <div style="overflow: hidden;padding: 5px; border-style: dotted dashed solid double; margin-top: 0px;">
+                                                                                                                    <p class="htmlparagraph">
+                                                                                                                     &#160&#160&#160&#160 4 style បញ្ចូលគ្នា 
+                                                                                                                      <br>
+                                                                                             
+                                                                                                                    </p>
+                                                                                                                
+                                                                                                                        </div> 
                                 <h2>អាចសរសេរជា ទម្រង់ Shorthand បែបនេះ</h2>
                                 <div class="htmldevice" style="border: 1px groove; background-color:rgba(206, 198, 198, 0.986);padding: 5px; width: 95%;">
               
