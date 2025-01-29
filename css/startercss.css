@@ -83,7 +83,7 @@ a:hover{
     z-index: 1;
 }   
 .activelink{
-    background-color: rgba(190, 150, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0.5);
     color: red;
     font-size: 20px;
 }
@@ -141,7 +141,8 @@ a:hover{
 .divasum, .divast, .divawh, .divaed, .divaba, .divael, .divase, .divaty,
 .divacsst, .divacsin, .divacssy, .divacsse, .divacsho, .divacsco, .divacsom, .diva, .divacsps, .divacseu, .divacsat,
 .divacsscolor, .colordivadetail, .rgbdivadetail, .hexdivadetail, .hsldivadetail, .divacsscbackground, .backgroundcolordivadetail,
-.backgroundimagedivadetail, .backgroundrepeatdivadetail, .backgroundattachdivadetail, .backgroundshortdivadetail {
+.backgroundimagedivadetail, .backgroundrepeatdivadetail, .backgroundattachdivadetail, .backgroundshortdivadetail,
+.divaborder {
    width: 200px;
    margin-left: 5px;
     font-size: 20px;

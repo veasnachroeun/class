@@ -301,6 +301,15 @@ if(pageName ==="css_backgrowncolor_shorthand.html"){
     document.querySelector(".backgroundshortdivadetail").classList.add("activelink");
 }
 
+
+
+if(pageName ==="css_border.html"){
+    document.querySelector(".barcss").classList.add("activelink");
+}
+if(pageName ==="css_border.html"){
+    document.querySelector(".divaborder").classList.add("activelink");
+}
+
 if(pageName ==="css_combinator.html"){
     document.querySelector(".barcss").classList.add("activelink");
 }
