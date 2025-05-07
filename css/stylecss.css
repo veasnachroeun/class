@@ -17,6 +17,11 @@
     animation-duration: 30s;
     animation-iteration-count: infinite;
   }
+  .divacsscolor, .colordivadetail, .rgbdivadetail, .hexdivadetail, .hsldivadetail,
+  .divacsscbackground, .backgroundcolordivadetail, .backgroundimagedivadetail, .backgroundrepeatdivadetail
+  ,.backgroundattachdivadetail, .backgroundshortdivadetail, .divacsscborder, .divaborder {
+    color: rgba(50,50,50,0.5);
+  }
   
   @keyframes example {
     0%   {background-color:red; left:80px; top:0px;}
